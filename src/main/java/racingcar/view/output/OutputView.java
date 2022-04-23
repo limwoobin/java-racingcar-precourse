@@ -1,5 +1,8 @@
 package racingcar.view.output;
 
+import racingcar.domain.Car;
+import racingcar.domain.Cars;
+
 public class OutputView {
     public static final String ERROR_HEADER_MESSAGE = "[ERROR]";
 
@@ -14,6 +17,7 @@ public class OutputView {
             raceStatus(car);
         }
     }
+
     private static void raceStatus(Car car) {
         System.out.println(car.getName() + ": " + car.getDistanceByDash());
     }
