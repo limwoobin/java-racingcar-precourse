@@ -7,11 +7,19 @@ public class MoveCount {
         this.moveCount = moveCount;
     }
 
-    public void move() {
+    public void decrease() {
+        if (moveCount == 0) {
+            throw new IllegalStateException(ExceptionType.NOT_DECREASE_MOVE_COUNT.getMessage());
+        }
+
         this.moveCount--;
     }
 
     public int getRemainingMoveCount() {
         return moveCount;
+    }
+
+    public boolean isMovableCount() {
+        return moveCount > 0;
     }
 }
