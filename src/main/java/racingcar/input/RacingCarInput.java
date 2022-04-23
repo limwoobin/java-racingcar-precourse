@@ -1,7 +1,7 @@
 package racingcar.input;
 
 import racingcar.input.validator.CarNamesValidatorGroup;
-import racingcar.view.OutputView;
+import racingcar.view.output.OutputView;
 import racingcar.view.input.RacingCarInputMessageInput;
 
 public class RacingCarInput {

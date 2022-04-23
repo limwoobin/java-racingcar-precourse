@@ -2,7 +2,7 @@ package racingcar.input;
 
 import racingcar.domain.MoveCount;
 import racingcar.input.validator.InputValidator;
-import racingcar.view.OutputView;
+import racingcar.view.output.OutputView;
 import racingcar.view.input.MoveCountInputMessageInput;
 
 public class MoveCountInput {
