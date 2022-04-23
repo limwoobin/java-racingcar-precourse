@@ -19,7 +19,7 @@ public class RaceTest {
 
         @DisplayName("시도할 회수가 n 이라면 자동차 이동 시도 역시 n번이 발생해야 한다")
         @ParameterizedTest
-        @ValueSource(ints = {1,3,5,7,9})
+        @ValueSource(ints = {1, 3, 5, 7, 9})
         void racing_car_move_test(int 시도할_회수) {
             Cars cars = mock(Cars.class);
             MoveCount moveCount = new MoveCount(시도할_회수);

@@ -32,7 +32,7 @@ public class CarMoveTest {
     void car_not_move_test(int randomNumber) {
         Car car = new Car("test", new RandomNumberMoveStrategy());
 
-        when(Randoms.pickNumberInRange(0,9))
+        when(Randoms.pickNumberInRange(0, 9))
                 .thenReturn(randomNumber);
 
         car.move();
@@ -45,7 +45,7 @@ public class CarMoveTest {
     void car_move_test(int randomNumber) {
         Car car = new Car("test", new RandomNumberMoveStrategy());
 
-        when(Randoms.pickNumberInRange(0,9))
+        when(Randoms.pickNumberInRange(0, 9))
                 .thenReturn(randomNumber);
 
         car.move();

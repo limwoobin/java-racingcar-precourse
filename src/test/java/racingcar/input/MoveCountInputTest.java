@@ -78,7 +78,7 @@ public class MoveCountInputTest {
                     .validate("456");
 
             when(Console.readLine())
-                    .thenReturn("123" , "456" , "5");
+                    .thenReturn("123", "456", "5");
 
             new MoveCountInput(validator);
             verify(validator, times(3)).validate(anyString());
@@ -94,7 +94,7 @@ public class MoveCountInputTest {
                     .validate("-5");
 
             when(Console.readLine())
-                    .thenReturn("-5" , "5");
+                    .thenReturn("-5", "5");
 
             new MoveCountInput(validator);
             verify(validator, times(2)).validate(anyString());

@@ -9,7 +9,8 @@ import racingcar.domain.Cars;
 import racingcar.domain.Winners;
 
 public class OutputView {
-    private OutputView() {}
+    private OutputView() {
+    }
 
     public static void printErrorMessage(String message) {
         System.out.println(ERROR_HEADER_MESSAGE + " " + message);
