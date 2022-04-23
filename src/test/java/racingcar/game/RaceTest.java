@@ -10,7 +10,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import racingcar.domain.Cars;
 import racingcar.domain.MoveCount;
-import racingcar.game.Race;
 
 public class RaceTest {
 

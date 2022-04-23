@@ -7,4 +7,5 @@ public class WordUtils {
     public static final int FIRST_INDEX = 0;
     public static final String COLON = ":";
     public static final String BLANK = " ";
+    public static final String DASH = "-";
 }

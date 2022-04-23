@@ -1,7 +1,8 @@
 package racingcar.domain;
 
+import static racingcar.utils.WordUtils.DASH;
+
 public class Distance {
-    private static final String DASH = "-";
     private int distanceCount;
     private String distanceLine;
 
