@@ -1,4 +1,4 @@
-package racingcar.domain;
+package racingcar.game;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
@@ -8,6 +8,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+import racingcar.domain.Cars;
+import racingcar.domain.MoveCount;
 import racingcar.game.Race;
 
 public class RaceTest {
