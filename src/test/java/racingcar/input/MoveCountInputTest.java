@@ -18,7 +18,6 @@ import racingcar.domain.ExceptionType;
 import racingcar.domain.MoveCount;
 import racingcar.input.validator.InputValidator;
 import racingcar.input.validator.impl.MoveCountValidator;
-import racingcar.input.MoveCountInput;
 
 public class MoveCountInputTest {
     private MockedStatic<Console> console;

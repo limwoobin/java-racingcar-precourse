@@ -16,7 +16,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.mockito.MockedStatic;
 import racingcar.domain.ExceptionType;
 import racingcar.input.validator.CarNamesValidatorGroup;
-import racingcar.input.RacingCarInput;
 
 public class RacingCarInputTest {
     private MockedStatic<Console> console;
